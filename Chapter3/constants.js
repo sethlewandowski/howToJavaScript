@@ -18,3 +18,9 @@ console.log(BROTHERS_NAME);
 // DId you catch the gotcha!? 
 
 // Constants can't be declared without an inital value. we get an error because DOGS_NAME doesn't have an initalizer
+
+// Some obvious examples of when to use a constant:
+
+const DAYS_IN_MARCH = 31;
+const VALUE_OF_PIE = 3.124;
+const FREEZING_POINT_IN_FARENHEIGHT = 32;

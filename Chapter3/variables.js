@@ -19,3 +19,8 @@ console.log(idealTempF);
 
 // we can also declare multiple variables with a single let statement as so:
 let bestTempF = 75, worstTempF = 32; 
+
+// Some examples of when to use variables:
+let currentTempOutside = 77;
+let volumeLeftInMyCoffeeCupInOunces = 8;
+let currentTimeInSeconds = 120;  // equalivent of 12:02 AM 
