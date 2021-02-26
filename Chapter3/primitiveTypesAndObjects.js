@@ -66,3 +66,28 @@ console.log(`${count} ${blue} ${umask}`)
 const nan = Number.NaN; // NaN
 
 // STRINGS //
+// strings in js represent Unicode text. 
+// in JS, string literals are represented with single quotes, double quotes, or backticks.
+// backticks were introducted in ES6 to enable template strings 
+
+// Escaping Strings 
+// Don't you like to use single quotes for correct grammar? 
+// let message2 = 'Hi Y'all I want to be y'alls friends!'; // throws unexpected identifier syntax error
+
+// kosher example one
+const GREETING = "Welcome all to my mother's home!"
+
+// kosher example two
+const GREETING_2 = 'My pa used to say, "Welcome home everyone!" before he passed.'
+
+// But what about using single quotes only?
+const ACCEPTABLE_GREETING = 'I love y\'all!'; // I love y'all!
+
+// Bonus points if you find yourself in a situation where you need to escape an escape
+const BACKSCAPE = 'In JS, use \\ as an escape character in strings.';
+
+//Author recommends:
+// Is text getting presented to user? use double quotes
+const WELCOME_MSG = "Welcome to the best app on the market!";
+// Using html inside js string? use single quotes so you can use double quotes for attribute values
+const H1 = '<h1 style={{color: "blue";}}>Welcome to the app!</h1>'
