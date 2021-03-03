@@ -1,3 +1,5 @@
+// call is a method available on all javascript functions that allows us to bind this to an object by passing in an object as the first argument to call then any following arguments will apply to parameters on the function itself.
+
 const MANAGERS_SPECIAL = {
   size: 12,
   type: 'Meat Lovers',
