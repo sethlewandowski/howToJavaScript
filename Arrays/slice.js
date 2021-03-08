@@ -12,3 +12,6 @@ console.log(exampleArray) // original array unmodified
 const editedArray = exampleArray.slice(1)
 
 console.log(editedArray)
+
+const arrayMinusLastItem = exampleArray.slice(0, -1)
+console.log(arrayMinusLastItem)
