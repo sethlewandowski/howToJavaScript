@@ -1,9 +1,9 @@
 // Scope
 
-let myName = 'Seth'
+let myName = 'Seth' // global scope
 
 function nowYouSeeMe(name) {
-  let yourName = 'Viewer'
+  let yourName = 'Viewer' // local scope & block scoped
 
   return name.toUpperCase()
 }
